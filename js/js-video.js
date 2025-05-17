@@ -2,7 +2,7 @@
         var button2 = document.getElementById("vlt2");
         var videoord = ["trims.mp4","https://archive.org/download/BigBuckBunny_328/BigBuckBunny_512kb.mp4"];
         
-        var numvide = 0;
+        var numvide = 1;
         var videocs = document.getElementById("video");
         var video = document.createElement("video");
         video.src = videoord[numvide];
