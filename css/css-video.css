@@ -1,0 +1,82 @@
+        body {
+                background-color: #121212;
+        }
+        #root {
+            border-color: rgb(5, 5, 5);
+        }
+        #searchinp {
+            justify-content: center;
+            justify-items: center;
+        }
+        #videocont {
+            width: 800px;
+        } .bars {
+            position: absolute;
+            left: 60px;
+            top: 450px;
+        } #volume {
+            -webkit-appearance: none;
+            left: 670px;
+            border-radius: 5px;
+        } #progress {
+            -webkit-appearance: none;
+            width: 600px;
+            background: rgb(255, 0, 0);
+            border-radius: 10px;
+        } 
+        #progress::-webkit-slider-runnable-track {
+    height: 5px;
+    background: linear-gradient(to right, #ff0000, #cc0000); 
+    border-radius: 5px;
+}  
+#volume::-webkit-slider-runnable-track {
+    height: 6px;
+    background: linear-gradient(to right, #ffffff, #ffffff); 
+    border-radius: 5px;
+}   
+#progress::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    background: rgb(255, 0, 0);
+    border: 2px solid #ff0000;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -3px; 
+    transition: background 0.3s;
+}  
+#volume::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    background: white;
+    border: 1px solid #727272;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -5px; 
+    transition: background 0.3s;
+}   #paused,.buttons {
+            top: 455px;
+            left: 65px;
+            border: none;
+            background-color: rgb(59, 59, 59);
+            padding-top: 0px;
+            
+        }
+        #progress::-moz-range-track {
+    height: 10px;
+    background: linear-gradient(to right, #ff0000, #cc0000);
+    border-radius: 5px;
+}
+
+#progress::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+    background: white;
+    border: 2px solid #ff0000;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s;
+}
