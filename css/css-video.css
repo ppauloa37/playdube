@@ -80,3 +80,7 @@
     cursor: pointer;
     transition: background 0.3s;
 }
+#fullscreen
+            position: absolute;
+            left: 100px;
+        }
